@@ -1,10 +1,12 @@
 import { Routes } from '@angular/router';
 import { InvestComponent } from './invest/invest.component';
-import { AppComponent } from './app.component';
 import { LearnComponent } from './learn/learn.component';
+import { HomeComponent } from './home/home.component';
+import { LeaderboardComponent } from './leaderboard/leaderboard.component';
 
 export const routes: Routes = [
     { path: 'invest', component: InvestComponent },
-    { path: 'home', component: AppComponent },
-    { path: 'learn', component: LearnComponent }
+    { path: '', component: HomeComponent },
+    { path: 'learn', component: LearnComponent },
+    { path: 'leaderboard', component: LeaderboardComponent }
 ];
