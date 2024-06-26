@@ -2,12 +2,12 @@ import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 
 @Component({
-    selector: 'app-play',
+    selector: 'app-leaderboard',
     standalone: true,
     imports: [RouterOutlet],
-    templateUrl: './play.component.html',
-    styleUrl: './play.component.css'
+    templateUrl: './leaderboard.component.html',
+    styleUrl: './leaderboard.component.css'
 })
-export class PlayComponent {
+export class LeaderboardComponent {
     title = 'green-invest';
 }
